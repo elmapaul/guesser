@@ -11,17 +11,23 @@
     "@babel/node": "^7.8.0",
     "@babel/preset-env": "^7.8.2",
     "express": "^4.17.1",
+    "gulp": "^4.0.2",
+    "gulp-csso": "^4.0.1",
     "morgan": "^1.9.1",
     "nodemon": "^2.0.2",
     "pug": "^2.0.4",
     "socket.io": "^2.3.0"
   },
   "scripts": {
-    "dev:server": "nodemon --exec babel-node src/server"
+    "dev:server": "nodemon --exec babel-node src/server",
+    "dev:assets": "gulp"
   },
   "devDependencies": {
     "eslint-config-prettier": "^6.9.0",
     "eslint-plugin-prettier": "^3.1.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.13.0",
     "prettier": "^1.19.1"
   }
 }
