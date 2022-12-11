@@ -10,7 +10,7 @@
     "@babel/core": "^7.8.0",
     "@babel/node": "^7.8.0",
     "@babel/preset-env": "^7.8.2",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "gulp": "^4.0.2",
     "gulp-csso": "^4.0.1",
     "morgan": "^1.9.1",
